@@ -3,4 +3,12 @@ GET http://localhost:5264/games
 GET http://localhost:5264/games/1
 
 POST http://localhost:5264/games
+Content-Type: application/json
+
+{
+    "name": "NBA 2K24",
+    "genre": "Sports",
+    "price": 64.19,
+    "release_date": "2023-09-08",
+}
 
