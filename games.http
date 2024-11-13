@@ -12,3 +12,13 @@ Content-Type: application/json
     "release_date": "2023-09-08",
 }
 
+PUT http://localhost:5264/games/1
+Content-Type: application/json
+{
+    "name": "Football Manager 2024",
+    "genre": "Simulation",
+    "price": 45.99,
+    "release_date": "2023-11-17",
+}
+
+DELETE http://localhost:5264/games/2
