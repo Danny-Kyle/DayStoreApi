@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj": {}
+    "C:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj": {
+    "C:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj",
         "projectName": "DayStoreApi",
-        "projectPath": "c:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj",
+        "projectPath": "C:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MinimalApis.Extensions": {
+              "target": "Package",
+              "version": "[0.11.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

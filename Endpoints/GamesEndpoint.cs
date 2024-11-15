@@ -48,13 +48,13 @@ public static RouteGroupBuilder MapGamesEndpoints(this WebApplication app){
 
     var group = app.MapGroup("games");
 
-    // GET /games
+    // GET @/games
 group.MapGet("/", () => games);
 
-// GET /games/1
+// GET @/games/{id}
 group.MapGet("/{id}", (int id) => { GameDto? game = games.Find(game => game.Id == id); return game is null ? Results.NotFound() : Results.Ok(game); }).WithName(GetGameEndpointName);
 
-//POST /games
+//POST @/games
 group.MapPost("", (CreateGameDto newGame) =>
 {
     GameDto game = new(games.Count + 1, newGame.Name, newGame.Genre, newGame.Price, newGame.ReleaseDate);
@@ -62,7 +62,7 @@ group.MapPost("", (CreateGameDto newGame) =>
     return Results.CreatedAtRoute(GetGameEndpointName, new { id = game.Id }, game);
 });
 
-//PUT /games
+//PUT @/games/{id}
 group.MapPut("/{id}", (int id, UpdateGameDto updatedGame) =>
 {
     var index = games.FindIndex(game => game.Id == id);
@@ -78,7 +78,7 @@ group.MapPut("/{id}", (int id, UpdateGameDto updatedGame) =>
     return Results.NoContent();
 });
 
-//Delete /games/1
+//Delete request @games/{id}
 group.MapDelete("/{id}", (int id) =>
 {
     games.RemoveAll(game => game.Id == id);

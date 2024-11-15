@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "E18nOctGNoQ=",
+  "dgSpecHash": "UUgxLovc6Xc=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\minimalapis.extensions\\0.11.0\\minimalapis.extensions.0.11.0.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\minivalidation\\0.8.0\\minivalidation.0.8.0.nupkg.sha512"
+  ],
   "logs": []
 }
