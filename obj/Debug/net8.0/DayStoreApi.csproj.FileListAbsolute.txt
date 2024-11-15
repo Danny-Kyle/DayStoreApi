@@ -23,3 +23,4 @@ C:\Users\Dell\Documents\Code\DayStoreApi\obj\Debug\net8.0\refint\DayStoreApi.dll
 C:\Users\Dell\Documents\Code\DayStoreApi\obj\Debug\net8.0\DayStoreApi.pdb
 C:\Users\Dell\Documents\Code\DayStoreApi\obj\Debug\net8.0\DayStoreApi.genruntimeconfig.cache
 C:\Users\Dell\Documents\Code\DayStoreApi\obj\Debug\net8.0\ref\DayStoreApi.dll
+c:\Users\Dell\Documents\Code\DayStoreApi\obj\Debug\net8.0\DayStoreApi.sourcelink.json

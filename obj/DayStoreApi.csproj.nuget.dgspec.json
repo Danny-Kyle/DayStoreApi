@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj": {}
+    "c:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj": {
+    "c:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj",
+        "projectUniqueName": "c:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj",
         "projectName": "DayStoreApi",
-        "projectPath": "C:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj",
+        "projectPath": "c:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\DayStoreApi.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\obj\\",
+        "outputPath": "c:\\Users\\Dell\\Documents\\Code\\DayStoreApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
