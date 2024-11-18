@@ -46,7 +46,7 @@ private static readonly List<GameDto> games = [
 
 public static RouteGroupBuilder MapGamesEndpoints(this WebApplication app){
 
-    var group = app.MapGroup("games");
+    var group = app.MapGroup("games").WithParameterValidation();
 
     // GET @/games
 group.MapGet("/", () => games);
@@ -76,7 +76,7 @@ group.MapPut("/{id}", (int id, UpdateGameDto updatedGame) =>
     );
 
     return Results.NoContent();
-});
+}).WithParameterValidation();
 
 //Delete request @games/{id}
 group.MapDelete("/{id}", (int id) =>
