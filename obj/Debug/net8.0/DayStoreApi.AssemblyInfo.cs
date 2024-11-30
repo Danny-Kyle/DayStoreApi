@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DayStoreApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72b6197ff7a38b2e84d518094c5760c86b264a85")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6749ad969d49f12a29beac3061ed58d0307a0895")]
 [assembly: System.Reflection.AssemblyProductAttribute("DayStoreApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DayStoreApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
