@@ -56,6 +56,33 @@ namespace DayStoreApi.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Genres");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Simulation"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Sports"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Racing"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Shooting"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Name = "Adventure"
+                        });
                 });
 
             modelBuilder.Entity("DayStoreApi.Entities.Game", b =>
